@@ -6,7 +6,7 @@ const Yakitori = () => {
   const state = useStore()
 
   return (
-    <div>
+    <div className="pb-24">
       <div className="grid grid-cols-1 gap-2">
         <h2 className="p-3 text-2xl">
           たれ<span className="text-sm">(1本あたり)</span>
