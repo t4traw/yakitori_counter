@@ -1,10 +1,7 @@
 import Menu from './components/Menu'
 import menuList from './menuList'
-import { useStore } from './store'
 
 const Yakitori = () => {
-  const state = useStore()
-
   return (
     <div className="pb-24">
       <div className="grid grid-cols-1 gap-2">
